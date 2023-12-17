@@ -1,0 +1,21 @@
+const countries = [
+    { country: "United States", currency: "USD" },
+    { country: "Eurozone", currency: "EUR" },
+    { country: "United Kingdom", currency: "GBP" },
+    { country: "Japan", currency: "JPY" },
+    { country: "Australia", currency: "AUD" },
+    { country: "Canada", currency: "CAD" },
+    { country: "Switzerland", currency: "CHF" },
+    { country: "China", currency: "CNY" },
+    { country: "India", currency: "INR" },
+    { country: "Brazil", currency: "BRL" },
+    { country: "South Africa", currency: "ZAR" },
+    { country: "New Zealand", currency: "NZD" },
+    { country: "Singapore", currency: "SGD" },
+    { country: "South Korea", currency: "KRW" },
+    { country: "Hong Kong", currency: "HKD" },
+    { country: "Malaysia", currency: "MYR" },
+    { country: "Thailand", currency: "THB" },
+    { country: "Indonesia", currency: "IDR" },
+    // Add more countries as needed
+];

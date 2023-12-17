@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="child_container">
+            <header>
+                <nav>
+                    <div class="logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnWNRFrgnAbiEg1aHqmo_hdVubj0YVqVQrJQ&usqp=CAU"
+                            alt="">
+                    </div>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Section</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="form_container">
+                    <form id="exchangeForm">
+                        <label for="amount">Amount:</label>
+                        <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+                        <label for="sourceCurrency">From Currency:
+                            <img class="usFlag" src="https://flagsapi.com/US/flat/64.png" alt="us Flag">
+                        </label>
+                        <select id="sourceCurrency" name="from" class="optionsCurrency from" required>
+                           
+                             <!-- <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="INR">IN</option>
+                            <option value="JPY">JPY</option>  -->
+                          
+                        </select>
+
+                        <label for="targetCurrency">To Currency:
+                            <img class="inFlag" src="https://flagsapi.com/IN/flat/64.png" alt="us Flag">
+                        </label>
+                        <select id="targetCurrency" class="optionsCurrency to" name="to" required>
+                           
+                             <!-- <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="INR">IN</option>
+                            <option value="JPY">JPY</option>  -->
+                          
+                        </select>
+
+                        
+                         <p id="result"></p>
+                        <button type="button" id="btn_submit">Convert</button>
+                    </form>
+                </div>
+                <div class="content">
+                   <h1>Effortless Currency Exchange Rates at Your Fingertips"</h1>
+                   <h4>Your Trusted Platform for Currency Exchange Rates</h4>
+                   <p>At [Your Website Name], we provide a seamless and efficient solution for tracking and converting currency exchange rates. Whether you're a frequent traveler, a business owner dealing with international transactions, or simply curious about the latest exchange rates, our platform has you covered.</p>
+
+                   <a href="">How to Exchange</a>
+                </div>
+            </main>
+        </div>
+
+        <!-- <footer>
+            <p>&copy; 2023 Your Currency Exchange</p>
+            <p>Contact: info@yourwebsite.com</p>
+        </footer> -->
+        
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="/script.js" ></script>
+ 
+</body>
+
+</html>
